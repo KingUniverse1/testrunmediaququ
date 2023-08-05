@@ -54,11 +54,12 @@ ul.sidenav li a {
 @media screen and (max-width:767px) {
     
     
-  ul.sidenav li a {
-    color: #481D3F;
-    text-decoration: none;
-    padding: 15px;
-  }
+ ul.sidenav{
+      flex-direction: column;
+    }
+    ul.sidenav li{
+      margin: 8px  0;
+    }
 }
 
 
