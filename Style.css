@@ -36,9 +36,11 @@
 div.navcont{
   display: flexbox
 }
-@media screen and (min-width:1125px) {
+@media screen and (max-width:680px) {
   div.navcont{
     display: flex;
+    justify-content: center;
+    background-color: #17BEBB;
   }
 }
     
