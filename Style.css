@@ -51,16 +51,23 @@ ul.sidenav li a {
   color: #481D3F;
   text-decoration: none;
 }
-@media screen and (max-width:767px) {
-    
-    
- ul.sidenav{
+@media (max-width: 640px) {
+    .container {
+      text-align: center;
+    }
+  
+    .container-nav {
       flex-direction: column;
     }
-    ul.sidenav li{
-      margin: 8px  0;
+  
+    nav ul {
+      flex-direction: column;
     }
-}
+  
+    nav li {
+      margin: 0.8em 0;
+    }
+  }
 
 
 ul.sidenav li a:hover:not(.active) {
