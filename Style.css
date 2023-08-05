@@ -51,7 +51,7 @@ ul.sidenav li a {
   color: #481D3F;
   text-decoration: none;
 }
-@media (max-width: 640px) {
+@media (max-width: 1125px) {
     .container {
       text-align: center;
     }
