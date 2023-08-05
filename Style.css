@@ -1,0 +1,247 @@
+/* css for portfolio.html */
+
+       
+       body{
+        background-color: #D4F4DD;
+        }
+        @media screen and(max-width: 414px) {
+          body{
+            background-color: #64387e; 
+        }
+      }
+        header{
+        background-color: #17BEBB;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-variant: normal;
+        color: #4B1D3F;
+    }
+    
+        
+    div.relative {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        border: 5px solid #4B1D3F;
+} 
+
+    
+
+    div.absolute img {
+       border: 5px solid #DD7373 ; 
+       background-color: #944859;
+       width: 300px;
+       height: 291px;
+       float: left;
+}
+    
+ul.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #17BEBB;
+  overflow: auto;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+ul.sidenav li a {
+  float: left;
+  padding: 15px;
+  color: #481D3F;
+  text-decoration: none;
+}
+@media screen and (max-width:414px) {
+    
+    
+  ul.sidenav li a {
+    color: #481D3F;
+    text-decoration: none;
+    padding: 15px;
+  }
+}
+
+
+ul.sidenav li a:hover:not(.active) {
+  background-color: #481D3F;
+  color: #DD7373;
+}
+
+  
+
+
+       
+      
+     div.myWrapper img{
+        width: 70px;
+        height: 70px;
+     }
+  div.myWrapper{
+    background-color: #944859;
+  }
+        
+      
+
+     
+   
+
+
+    /* css for art.html  */
+
+   
+        
+      
+      
+     
+    
+    div.left, div.middle, div.right{
+    border: 5px solid #944859;
+    width: 30%;
+    height: 30%;
+    margin-bottom: 50px;
+    }
+    aside{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    
+
+    /* css for animation */
+
+   
+       
+     
+     div.animation img{
+        float: left;
+        height: 60%;
+        width: 50%;
+        border: 6px solid #944859;
+     }
+     div.animation p{
+        float: right;
+        border: 3px solid #17BEBB;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-variant: inherit;
+        font-size: medium;
+        font-weight: 500;
+     }
+     div.storyboard img{
+        border: 4px solid #DD7373;
+        margin-left: 75px;
+     }
+     div.new {
+        width: 100px;
+        height: 100px;
+        background: #DD7373;
+        transition: width 2s;
+        float: left;
+        margin-left: 50px;
+        margin-top: 30px;
+      }
+      div.new:hover {
+        width: 300px;
+      }
+
+
+    /* css for socialmedia.html */
+  
+
+   
+
+
+a.yeet{
+  color: #DD7373;
+  text-decoration: none;
+  border: 1px solid #DD7373;
+  display: block;
+  background-color: #944859;
+}
+
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+ }
+ .fa:hover {
+    opacity: 0.7;
+ }
+ .fa {
+    background: linear-gradient(to bottom right, #4B1D3F, #DD7373, #D4F4DD, #17BEBB );
+    margin-left: 50px;
+ }
+
+ .fa-pinterest {
+    background: #cb2027;
+    color: white;
+    margin-left: 50px;
+    float: left;
+  }
+  .fa-instagram {
+    background: linear-gradient(to bottom right,#355070, #64387E, #FD1172, #FFD147 );
+    color: white;
+    float: left;
+   
+   }
+   div.shop img{
+    width: 70px;
+    height: 70px;
+    margin-left: 50px;
+   }
+   div.Moi img{
+    width: 500px;
+    height: 500px;
+    border: 5px solid #DD7373;
+   }
+   div.Moi p{
+    border: 5px solid #17BEBB;
+   }
+   a.coco{
+    background-color: #D4F4DD;
+    border: #D4F4DD;
+    margin-top: 10px;
+   
+   }
+   @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+body {
+    background-color: #D4F4DD;
+    
+}
+.note {
+  width: 600px;
+  margin: 30px auto;
+}
+
+.element {   
+  background-color: #944859; 
+  color: #17BEBB;
+  width: 500px; 
+  height: 500px;
+  margin: 30px auto;
+  text-align: justify;
+  shape-inside: polygon(250px 0, 350px 170px, 500px 180px, 380px 320px, 450px 500px, 250px 420px, 50px 500px, 120px 320px, 0px 180px, 150px 170px );
+  shape-padding: 10px;
+  transition: all 3s ease; 
+  -webkit-clip-path: polygon(250px 0, 350px 170px, 500px 180px, 380px 320px, 450px 500px, 250px 420px, 50px 500px, 120px 320px, 0px 180px, 150px 170px );
+  position: absolute;
+  right: 90px;
+  bottom: 40px;
+  
+   
+  
+} 
+.element:hover{ 
+   shape-inside: polygon(250px 0, 500px 0, 500px 180px, 500px 320px, 500px 500px, 250px 500px, 0 500px, 0 320px, 0 180px, 0 0);
+  -webkit-clip-path: polygon(250px 0, 500px 0, 500px 180px, 500px 320px, 500px 500px, 250px 500px, 0 500px, 0 320px, 0 180px, 0 0);
+}
+   
+ footer{
+  color: #4B1D3F;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  border: 5px solid #17BEBB;
+ }
